@@ -1,0 +1,101 @@
+.Container{
+    width: 100%;
+    height: auto;
+    box-shadow: inset;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: ; */
+    padding: 20px;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+}
+.Box{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+   padding: 20px;
+   margin-bottom: 20px;
+   display: flex;
+   flex-direction: row;
+   background-color:black ;
+   border-radius: 10px;
+     box-shadow: 5px 5px 5px 5px;
+     cursor: pointer;
+     color: white;
+     align-items: center;
+     justify-content: center;
+
+   
+
+}
+.Title{
+    width: 23%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+.Content{
+    width: 33%;
+    overflow: hidden;
+}
+header{
+    font-size: x-large;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.content-paragraph{
+    font-size: large;
+    /* text-decoration: none; */
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        overflow-wrap: break-word;
+        padding: 5px;
+        /* letter-spacing: 1px; */
+
+}
+.image-container{
+    /* object-fit: contain;~ */
+    width: 300px;
+    height: 200px;
+    /* padding: 20px; */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.image{
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 5px;
+    width: 300px;
+
+}
+.project-header{
+    font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: black;
+}
+ 
+  @media (max-width: 480px) {
+            .Box {
+flex-direction: column;
+/* justify-content: center; */
+/* align-items: center; */
+width: auto;
+            }
+            .Title{
+                width: 100%;
+            }
+            .Content{
+                width: 100%;
+            }
+            .image{
+                width: 250px;
+            }
+        }
