@@ -8,6 +8,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { bounce } from "react-animations";
 import Radium, { StyleRoot } from "radium";
+import Banner from "../../src/Assets/banner.jpg"
 
 function Home() {
   useEffect(() => {
@@ -62,7 +63,7 @@ function Home() {
       {/* <!-- End nav-bar  --> */}
 
       {/* <!-- Hero Section  --> */}
-      {/* <section id="hero" class="hero container">
+      <section id="hero" class="hero container">
         <div class="hero-info">
           <h1 class="hero-info-heading">Hey</h1>
           <p class="hero-info-subheading">
@@ -79,10 +80,10 @@ function Home() {
           </a>
         </div>
         <div class="hero-img">
-          <img src={banner} alt="" />
+          <img src={Banner} alt="" />
         </div>
         <Particle />
-      </section> */}
+      </section>
       {/* <!-- End Hero Section  --> */}
 
       {/* <!-- About section  --> */}
